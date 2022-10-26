@@ -15,5 +15,6 @@ module.exports = {
     'comma-dangle': 'off',
     'no-param-reassign': 'off',
     'import/first': 'off',
+    camelcase: 'off',
   },
 };
