@@ -30,7 +30,6 @@ export default class Foto extends Model {
           },
         },
       },
-
       {
         sequelize,
       }

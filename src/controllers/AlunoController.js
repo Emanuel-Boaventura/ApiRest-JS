@@ -11,7 +11,7 @@ class AlunoController {
       ],
       include: {
         model: Foto,
-        attributes: ['id', 'originalname', 'url'],
+        attributes: ['id', 'originalname', 'filename', 'url'],
       },
     });
     res.json(alunos);

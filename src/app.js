@@ -17,7 +17,7 @@ const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static(resolve(__dirname, 'uploads')));
+app.use(express.static(resolve(__dirname, '..', 'uploads', 'images')));
 
 app.use('/', homeRoutes);
 app.use('/users/', userRoutes);
