@@ -30,7 +30,6 @@ var _appConfig = require('../config/appConfig'); var _appConfig2 = _interopRequi
           },
         },
       },
-
       {
         sequelize,
       }

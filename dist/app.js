@@ -17,7 +17,7 @@ const app = _express2.default.call(void 0, );
 
 app.use(_express2.default.urlencoded({ extended: true }));
 app.use(_express2.default.json());
-app.use(_express2.default.static(_path.resolve.call(void 0, __dirname, 'uploads')));
+app.use(_express2.default.static(_path.resolve.call(void 0, __dirname, '..', 'uploads', 'images')));
 
 app.use('/', _homeRoutes2.default);
 app.use('/users/', _userRoutes2.default);
