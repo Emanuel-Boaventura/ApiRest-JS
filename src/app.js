@@ -18,9 +18,10 @@ import fotoRoutes from './routes/fotoRoutes';
 const app = express();
 
 const whiteList = [
-  'http://35.198.44.33',
-  'http://localhost:3003',
+  'http://localhost:3001',
   'http://35.198.44.33:81',
+  'http://35.198.44.33:82',
+  'https://apireact-one.vercel.app/',
 ];
 
 const corsOptions = {
